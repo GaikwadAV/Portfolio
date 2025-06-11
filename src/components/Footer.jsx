@@ -8,7 +8,7 @@ export default function Footer() {
         <a href="https://github.com/Ganesh-14389/" target="_blank" rel="noreferrer"><FaGithub /></a>
         <a href="mailto:gbhange18@gmail.com"><FaEnvelope /></a>
       </div>
-      <p className="text-sm text-gray-500">© {new Date().getFullYear()} Ganesh Bhange. All rights reserved.</p>
+      <p className="text-sm text-gray-500">© {new Date().getFullYear()} Aniket Gaikwad. All rights reserved.</p>
     </footer>
   );
 }

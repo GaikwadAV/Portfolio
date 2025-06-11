@@ -3,7 +3,7 @@ export default function About() {
     <section className="py-20 px-6 bg-gradient-to-b from-white via-gray-50 to-gray-100 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-7xl mx-auto">
       <div className="text-center lg:text-left max-w-2xl">
         <h2 className="text-5xl font-extrabold mb-4 text-gray-800 leading-tight">
-          Hello, I’m <br /><span className="text-purple-700">Ganesh Bhange</span>
+          Hello, I’m <br /><span className="text-purple-700">Aniket Gaikwad</span>
         </h2>
         <p className="text-lg text-gray-600 mb-10">
           AWS Cloud Engineer & DevOps Enthusiast based in India. I build scalable, automated cloud solutions using AWS, Terraform, Kubernetes, and more.
@@ -29,7 +29,7 @@ export default function About() {
 </a>
       </div>
       <div>
-      <img src={import.meta.env.BASE_URL + 'profile.jpge'} alt="Ganesh Bhange" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
+      <img src={import.meta.env.BASE_URL + 'profile.jpge'} alt="Aniket Gaikwad" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
       </div>
     </section>
   );
