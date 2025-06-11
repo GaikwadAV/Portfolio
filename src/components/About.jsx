@@ -29,7 +29,7 @@ export default function About() {
 </a>
       </div>
       <div>
-      <img src={import.meta.env.BASE_URL + 'ganesh.png'} alt="Ganesh Bhange" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
+      <img src={import.meta.env.BASE_URL + 'profile.jpge'} alt="Ganesh Bhange" className="rounded-3xl w-80 shadow-xl border border-gray-200" />
       </div>
     </section>
   );
