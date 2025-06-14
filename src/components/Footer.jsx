@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex justify-center gap-4 mb-2">
         <a href="https://www.linkedin.com/in/aniket-gaikwad-00b107151/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
         <a href="https://github.com/GaikwadAV" target="_blank" rel="noreferrer"><FaGithub /></a>
-        <a href="mailto:gbhange18@gmail.com"><FaEnvelope /></a>
+        <a href="mailto:gaikwadaniket7297@gmail.com"><FaEnvelope /></a>
       </div>
       <p className="text-sm text-gray-500">© {new Date().getFullYear()} Aniket Gaikwad. All rights reserved.</p>
     </footer>
