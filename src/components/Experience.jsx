@@ -7,19 +7,16 @@ export default function Experience() {
         <div className="bg-gray-50 p-8 rounded-2xl shadow-xl text-left">
           <h3 className="text-xl font-semibold mb-2 text-purple-700">Cloud Engineer - Lentra (Aug 2023 - Present)</h3>
           <p className="text-gray-600">
-            I'm currently working as a Cloud Engineer at Lentra, where I primarily manage our AWS infrastructure using Terraform. My day-to-day work involves provisioning resources, managing networking and security, and ensuring the overall stability of our cloud environment. I've also been quite involved in optimizing our deployment processes — for example, I replaced in-place deployments with a blue-green strategy, leading both POC and production implementation, which helped us cut down downtime significantly.
+            I'm currently working as a Cloud Engineer at Lentra, where I manage AWS infrastructure using Terraform. I’ve led automation initiatives such as detecting duplicate ASGs, implemented cross-account S3 replication, and securely shared AMIs with customers. I also played a key role in EKS upgrades, resolving production issues, and ensuring DR readiness for clients — all while optimizing deployments through a blue-green strategy.
             <br /><br />
-            One of the key projects I led was automating sandbox provisioning using Jira, which significantly improved development speed. On the FinOps side, I contributed to initiatives that reduced our cloud costs by around 15%. I also built a utility to collect logs for deleted Auto Scaling Groups, simplifying the troubleshooting process, Implemented automation of manual processes using scripting and AWS native services to improve operational efficiency and reduce human error.
-            <br /><br />
-            My work has included migrating workloads from an on-premise data center to AWS, integrating a third-party firewall into the cloud architecture, and onboarding new customers into the AWS landing zone.
+            My work has also involved migrating workloads from on-premises to AWS, integrating third-party firewalls into our cloud architecture, and onboarding new customers into the AWS landing zone.
           </p>
         </div>
 
         <div className="bg-gray-50 p-8 rounded-2xl shadow-xl text-left">
-          <h3 className="text-xl font-semibold mb-2 text-purple-700">Python Developer Intern - Syngenta (Aug 2022 - Feb 2023)</h3>
+          <h3 className="text-xl font-semibold mb-2 text-purple-700">Software Engineer - GSLab (Feb 2022 - Nov 2022)</h3>
           <p className="text-gray-600">
-            Worked on MLOps workflows as a Python developer. During my time there, I focused on building automation scripts and pipelines to streamline model training and deployment. This experience sparked my interest in cloud-native tools and DevOps practices, setting the foundation for my current career in cloud engineering.
-          </p>
+            At GS Lab, I gained hands-on experience with Docker and Kubernetes, focusing on containerization and orchestration. I designed and maintained highly available Kubernetes clusters and automated infrastructure provisioning using Terraform. I also handled Linux system administration and wrote shell scripts to streamline routine operations.          </p>
         </div>
 
       </div>

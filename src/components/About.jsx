@@ -22,10 +22,27 @@ export default function About() {
             <p className="text-sm text-gray-500">Infrastructure Automations</p>
           </div>
         </div>
+
+        {/* Buttons Section */}
+        <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
+          <a
+            href="https://github.com/GaikwadAV" // Adjust this to your actual section ID
+            className="bg-purple-700 text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-purple-800 transition"
+          >
+            My Work
+          </a>
+          <a
+            href="Aniket_Gaikwad.pdf" // Place your resume in the public folder
+            download
+            className="border border-purple-700 text-purple-700 px-8 py-3 rounded-full font-semibold shadow hover:bg-purple-700 hover:text-white transition"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
       <div>
         <img
-          src={import.meta.env.BASE_URL + 'profile.jpge'}
+          src={import.meta.env.BASE_URL + 'profile.jpeg'}
           alt="Aniket Gaikwad"
           className="rounded-3xl w-80 shadow-xl border border-gray-200"
         />
