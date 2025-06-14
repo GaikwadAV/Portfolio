@@ -6,19 +6,19 @@ export default function About() {
           Hello, I’m <br /><span className="text-purple-700">Aniket Gaikwad</span>
         </h2>
         <p className="text-lg text-gray-600 mb-10">
-          AWS Cloud Engineer & DevOps Enthusiast based in India. I build scalable, automated cloud solutions using AWS, Terraform, Kubernetes, and more.
+         A passionate AWS Cloud Engineer & DevOps enthusiast based in India.I design and implement robust, scalable, and automated cloud solutions using tools like AWS, Terraform, and Kubernetes.
         </p>
         <div className="flex justify-center lg:justify-start gap-10 mb-10">
           <div>
-            <h3 className="text-4xl font-bold text-purple-700">2+Y</h3>
+            <h3 className="text-4xl font-bold text-purple-700">3+Y</h3>
             <p className="text-sm text-gray-500">Experience</p>
           </div>
           <div>
-            <h3 className="text-4xl font-bold text-purple-700">10+</h3>
+            <h3 className="text-4xl font-bold text-purple-700">20+</h3>
             <p className="text-sm text-gray-500">Projects</p>
           </div>
           <div>
-            <h3 className="text-4xl font-bold text-purple-700">10+</h3>
+            <h3 className="text-4xl font-bold text-purple-700">20+</h3>
             <p className="text-sm text-gray-500">Infrastructure Automations</p>
           </div>
         </div>
